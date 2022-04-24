@@ -1,4 +1,4 @@
-package com.example.kotlinlab1
+package com.example.kotlinlab1.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.example.kotlinlab1.R
+import com.example.kotlinlab1.data.Tariff
 
 class TariffAdapter : ListAdapter<Tariff, TariffAdapter.ViewHolder>(TariffItemDiffCallback()) {
 

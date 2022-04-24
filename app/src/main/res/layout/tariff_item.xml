@@ -50,4 +50,12 @@
             app:layout_constraintTop_toTopOf="@id/tariff_month_word"
             app:layout_constraintBottom_toBottomOf="@id/tariff_month_word"
             app:layout_constraintEnd_toStartOf="@id/tariff_month_word"/>
+
+    <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/tariff_card_barrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="start"
+            app:constraint_referenced_ids="tariff_cost"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
