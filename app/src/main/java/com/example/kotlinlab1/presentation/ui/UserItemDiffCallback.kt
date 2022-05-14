@@ -1,7 +1,7 @@
-package com.example.kotlinlab1.ui
+package com.example.kotlinlab1.presentation.ui
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.kotlinlab1.data.UserInfo
+import com.example.kotlinlab1.data.models.UserInfo
 
 class UserItemDiffCallback : DiffUtil.ItemCallback<UserInfo>() {
     override fun areItemsTheSame(oldItem: UserInfo, newItem: UserInfo): Boolean = oldItem.id == newItem.id

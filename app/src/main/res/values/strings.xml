@@ -10,8 +10,10 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="ruble_symbol">₽</string>
-    <string name="to_pay_october">"К оплате за октябрь:"</string>
-    <string name="slash_month">/мес</string>
+    <string name="user_money">%1$s ₽</string>
+    <string name="to_pay_october">К оплате за октябрь: %1$s ₽</string>
+    <string name="personal_account">ЛС: %1$d</string>
+    <string name="slash_month">/мес</string>"К опла
     <string name="Tariff">Тариф</string>
     <string name="User">Пользователь</string>
     <string name="your_ballance">Ваш баланс</string>
